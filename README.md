@@ -39,11 +39,9 @@ Aplicação web desenvolvida com **Laravel 12** para gerir estudantes, incluindo
 | Método | Rota                    | Descrição                        |
 |--------|-------------------------|----------------------------------|
 | GET    | `/students`             | Lista todos os estudantes        |
-| GET    | `/students/create`      | Formulário de criação            |
-| POST   | `/students`             | Guarda novo estudante            |
+| POST   | `/students/create`      | Formulário de criação            |
 | GET    | `/students/{id}`        | Exibe detalhes de um estudante   |
-| GET    | `/students/{id}/edit`   | Formulário de edição             |
-| PUT    | `/students/{id}`        | Actualiza dados do estudante     |
+| PUT    | `/students/{id}/edit`   | Actualiza dados do estudante     |
 | DELETE | `/students/{id}`        | Elimina estudante                |
 
 ---
